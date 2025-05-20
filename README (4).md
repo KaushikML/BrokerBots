@@ -1,6 +1,6 @@
 # AI-Powered Stock Trading Simulation Platform
 
-A modular, agentic trading simulator where AI agents mimic real-world investor strategies and execute trades based on live market data, research tools, and persistent memory. Built as part of an advanced autonomous agents course by Ed Donner.
+A modular, agentic trading simulator where AI agents mimic real-world investor strategies and execute trades based on live market data, research tools, and persistent memory.
 
 ---
 
