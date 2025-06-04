@@ -16,6 +16,16 @@ A modular, agentic trading simulator where AI agents mimic real-world investor s
 
 ---
 
+## 🏁 Getting Started
+
+1. Clone the repository and install the requirements.
+2. Launch the MCP servers configured in `mcp_params.py`.
+3. Create a `.env` file with your API keys. In addition to the Polygon and Pushover values, include keys for any LLM providers you plan to use:
+   `OPENROUTER_API_KEY`, `DEEPSEEK_API_KEY`, `GOOGLE_API_KEY`, `GROK_API_KEY`, `ALPHA_VANTAGE_API_KEY`, `SMITHERY_API_KEY`.
+4. Start the dashboard with `python app.py`.
+
+---
+
 ## 🧱 Architecture Overview
 
 - `trading_floor.py` — Main loop, launches and schedules traders
@@ -78,10 +88,19 @@ POLYGON_PLAN=paid / realtime / free
 PUSHOVER_USER=...
 PUSHOVER_TOKEN=...
 BRAVE_API_KEY=...
+OPENROUTER_API_KEY=...
+DEEPSEEK_API_KEY=...
+GOOGLE_API_KEY=...
+GROK_API_KEY=...
+ALPHA_VANTAGE_API_KEY=...
+SMITHERY_API_KEY=...
 USE_MANY_MODELS=true / false
 RUN_EVERY_N_MINUTES=30
 RUN_EVEN_WHEN_MARKET_IS_CLOSED=true / false
 ```
+
+LLM provider keys and `ALPHA_VANTAGE_API_KEY` are optional but required if you
+plan to use those models or the Alpha Vantage tools.
 
 ---
 
