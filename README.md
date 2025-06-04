@@ -134,4 +134,4 @@ Project created under the guidance of **Ed Donner** as part of an advanced explo
 
 Happy to collaborate or share more! Let’s build smarter agents. 🧠
 
-#AI #OpenAI #Polygon #StockTrading #AgenticAI #EdDonner #Gradio #Fintech
+#AI #OpenAI #Polygon #StockTrading #AgenticAI 
